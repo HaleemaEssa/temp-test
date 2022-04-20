@@ -5,7 +5,7 @@ COPY . .
 #########
 RUN apt-get clean
 ##########
-RUN apt-get update -y
+#RUN apt-get update -y
 COPY . .
 CMD ["p.py"]
 ENTRYPOINT ["python3"]
